@@ -1,19 +1,35 @@
-// document.querySelectorAll(".nav-link").forEach((link) => {
-//     if (link.href === window.location.href) {
-//         link.classList.add("menu-active");
-//         link.setAttribute("aria-current", "page");
-//     }
+// //YOUTUBE VIDEO
+// $('.play-button').click(function(e){
+//     var iframeEl = $('<iframe>', { src: $(this).data('url') });
+//     $('#youtubevideo').attr('src', $(this).data('url'));
+//     // console.log("clicked")
+// })
+
+
+// $('#close-video').click(function(e){
+//     $('#youtubevideo').attr('src', '');
+// }); 
+
+// $(document).on('hidden.bs.modal','#myModal', function () {
+//     $('#youtubevideo').attr('src', '');
+// }); 
+
+// var vid = document.getElementById("gossVideo"); 
+
+// function playVid() { 
+//     vid.play(); 
+// } 
+
+// function pauseVid() { 
+//     vid.pause(); 
+// } 
+
+// $(document).ready(function () {
+//     var modal = $('#myModal');
+
+//     modal.on('hidden.bs.modal', function () {
+//         var video = document.getElementById('localvideo');
+
+//         video.pause();
+//     });
 // });
-
-
-
-// mybutton.addEventListener("click", backToTop);
-
-// function backToTop() {
-//   $('html, body').animate({
-//     scrollTop: 0
-// }, 500); 
-  
-// }
-
-
