@@ -74,6 +74,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 0 30px;
+  cursor: pointer;
   margin-right: 20px;
 }
 
@@ -103,6 +104,7 @@ body {
           align-items: center;
   padding: 0 10px;
   color: var(--gray);
+  cursor: pointer;
 }
 
 .header-contact-container {
@@ -2205,6 +2207,46 @@ body {
   height: 56px;
   width: 56px;
   text-align: center;
+}
+
+@media (max-width: 1499px) {
+  .slider-container .text-slider-container {
+    width: 60%;
+  }
+  .slider-container .text-bg {
+    height: 100%;
+    width: 60%;
+    font-family: var(--poppins);
+    z-index: 999;
+  }
+}
+
+@media (max-width: 1299px) {
+  .header-top-side {
+    height: 40px;
+    background-color: #F8F8F8;
+  }
+  .header-top-side .header-contact-container {
+    padding: 0 5%;
+  }
+  .header-top-side .header-contact-container .header-contact-left {
+    font-size: 12px;
+  }
+  .header-top-side .header-contact-container .header-contact-left .header-icon-container {
+    padding: 0 10px;
+  }
+  .header-top-side .header-contact-container .header-contact-left .header-icon-text {
+    line-height: 1;
+  }
+  .header-top-side .header-contact-container .header-contact-right .header-socmed-icon {
+    padding: 0 6px;
+  }
+  .header-navbar-container .header-navbar {
+    padding: 0 5%;
+  }
+  .header-navbar-container .header-navbar .navbar .menu-btn {
+    padding: 10px 15px;
+  }
 }
 
 @media (max-width: 1199px) {
