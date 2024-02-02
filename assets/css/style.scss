@@ -6698,7 +6698,7 @@ body{
             padding-top: 100px;
     
             .slider-title-header{
-                font-size: 30px;
+                font-size: 25px;
                 .text-highlight{
                     font-weight: 800;
                     color: var(--theme-blue);
@@ -7068,6 +7068,8 @@ body{
                                 position: relative;
                                 height: auto;
                                 max-height: 500px;
+
+                                display: none;
                             
                                 .tab-img-semi-container{
                                     height: 100%;

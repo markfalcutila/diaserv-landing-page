@@ -4802,7 +4802,7 @@ body {
     padding-top: 100px;
   }
   .slider-container .text-bg .slider-title-header {
-    font-size: 30px;
+    font-size: 25px;
   }
   .slider-container .text-bg .slider-title-header .text-highlight {
     font-weight: 800;
@@ -5075,6 +5075,7 @@ body {
     position: relative;
     height: auto;
     max-height: 500px;
+    display: none;
   }
   .service-container .tablist-container .tablist-right .tab-content .tab-pane .tab-container .tab-img-container .tab-img-semi-container {
     height: 100%;
