@@ -87,12 +87,12 @@ document.addEventListener('DOMContentLoaded', function () {
             console.log("navlinks clicked")
 
             navLinks.forEach(function (navLink) {
-                // navLink.classList.remove('active');
+                navLink.classList.remove('active');
                 bgdark.classList.remove('bg-open-container');
 
             });
 
-            // this.classList.add('active');
+            this.classList.add('active');
 
         });
     });
